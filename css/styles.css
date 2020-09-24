@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px 0px 0px 0px;
+}
+
+.main-nav-container {
+  display: flex;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+}
+
+#navbar {
+  padding: 0px 15px 0px 15px;
+}
+
+ul #navbar-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  display: inline;
+  padding: 6px 8px 5px 10px;
+}
+
+.navleft-container {
+  width: 35%;
+}
+
+.nav-left {
+  float: left;
+  color: #717171;
+}
+
+.navright-container {
+  width: 65%;
+}
+
+.nav-right {
+    float: right;
+}
+
+#navbar-list a {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit {
+  padding: 10px 15px;
+  background-color: #4885ed;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 95px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#google-icon{
+  width: 272px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+#search {
+  width: 480px;
+  height: 45px;
+  border-radius: 25px;
+  border-style: none;
+  border: 1px solid #DDDDDD;
+}
+
+#search-icon {
+  width: 16px;
+  height: auto;
+  position: absolute;
+  padding: 15.5px 15px;
+  opacity: 0.5;
+}
+
+input:focus, #search {
+    outline: none !important;
+}
+
+.google-button {
+  padding: 10px 15px;
+  margin-left: 20px;
+  background-color: #F6F5F5;
+  color: #7A7A7A;
+  border-style: none;
+  border-radius: 3px;
+}
+.search-container input {
+  text-indent: 45px;
+  font-size: 1em;
+}
+
+.main-footer-container {
+  background-color: #F6F5F5;
+  display: flex;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  margin-top: 325px;
+  height:50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+ul #footer-list {
+  list-style-type: none;
+}
+
+#footer {
+  padding: 0px 20px 0px 20px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+.footer-link {
+  display: inline;
+  padding: 10px;
+  color: #7A7A7A;
+  padding: 0px 13px 0px 13px;
+}
+
+.footerleft-container {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footerright-container {
+  width: 100%;
+  align-self: center;
+}
+
+.footer-right {
+    float: right;
+}
