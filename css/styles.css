@@ -82,7 +82,7 @@ ul #navbar-list {
 }
 
 #search {
-  width: 480px;
+  width: 482px;
   height: 45px;
   border-radius: 25px;
   border-style: none;
@@ -160,4 +160,10 @@ ul #footer-list {
 
 .footer-right {
     float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  #search {
+    width: 100%;
+  }
 }
